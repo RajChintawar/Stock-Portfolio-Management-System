@@ -1,7 +1,7 @@
 ## Stock Portfolio Management System ##
 A Node.js project that calculates portfolio performance based on stock weightages, prices, and multipliers, and ranks users by portfolio value.
 
-** Features **
+## Features ##
 Calculate per-stock metrics
 Captain (2x), Vice-Captain (1.5x), Regular (1x) multiplier system
 Portfolio validation rules
@@ -9,14 +9,14 @@ Total portfolio value calculation
 User ranking system with tie support
 3 test scenarios included
 
-** Project Structure **
+## Project Structure ##
 index.js        → main entry point
 stock.js        → calculates one stock
 portfolio.js    → calculates complete portfolio
 ranking.js      → ranks multiple users
 test.js         → contains test scenarios
 
-** How Calculations Work **
+## How Calculations Work ##
 1. Per Stock
 
 Investment = (100000 × weightage) / 100
@@ -35,7 +35,7 @@ Return % = ((TotalValue – 100000) / 100000) × 100
 Sorted by TotalValue (descending)
 Handles ties (same value → same rank)
 
-** Testing **
+## Testing ##
 
 Run tests: node test.js
  Includes:
@@ -44,4 +44,5 @@ Run tests: node test.js
  -Tie scenario
 
 Running project : index.js
+
  
